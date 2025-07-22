@@ -1,7 +1,9 @@
 {
-  "dependencies": {
-    "react-beautiful-dnd": "^13.1.1",
-    "react-router-dom": "^7.6.3",
-    "react-scripts": "^5.0.1"
+  "name": "imdb-clone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "IMDB Clone project with React frontend",
+  "scripts": {
+    "start": "echo 'Run the React app from ./frontend using npm start or deploy via Vercel'"
   }
 }
