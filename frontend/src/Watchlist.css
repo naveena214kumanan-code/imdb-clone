@@ -1,0 +1,14 @@
+.watchlist-container {
+  padding: 20px;
+}
+
+.watchlist-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.empty-watchlist {
+  text-align: center;
+  font-size: 18px;
+  color: gray;
+}

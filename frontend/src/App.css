@@ -1,0 +1,79 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.app.dark {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-buttons a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #444;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.nav-buttons a:hover {
+  background-color: #666;
+}
+
+.nav-buttons button {
+  background-color: #555;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: #777;
+}
+
+.filter-bar {
+  margin: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+select {
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+/* Movie grid layout */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 2rem;
+}
